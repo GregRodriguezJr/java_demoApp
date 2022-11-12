@@ -3,13 +3,23 @@
   <display-name>java_demoApp</display-name>
   
   <servlet>
-  	<servlet-name>abc</servlet-name>
+  	<servlet-name>addition</servlet-name>
   	<servlet-class>com.dor.AddServlet</servlet-class>
   </servlet>
   
   <servlet-mapping>
-  	<servlet-name>abc</servlet-name>
+  	<servlet-name>addition</servlet-name>
   	<url-pattern>/add</url-pattern>
+  </servlet-mapping>
+
+	<servlet>
+  	<servlet-name>square</servlet-name>
+  	<servlet-class>com.dor.SqServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>square</servlet-name>
+  	<url-pattern>/sq</url-pattern>  	
   </servlet-mapping>
   
 </web-app>
