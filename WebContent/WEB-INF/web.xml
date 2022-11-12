@@ -22,4 +22,28 @@
   	<url-pattern>/sq</url-pattern>  	
   </servlet-mapping>
   
+   	<servlet>
+	 	<servlet-name>myServ</servlet-name>
+	 	<servlet-class>com.dor.MyServlet</servlet-class>
+	 	<init-param>
+	 		<param-name>name</param-name>
+	 		<param-value>Rodriguez</param-value>
+	 	</init-param>
+  	</servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>myServ</servlet-name>
+  	<url-pattern>/myServ</url-pattern>
+  </servlet-mapping>
+  
+  <context-param>
+  	<param-name>name</param-name>
+  	<param-value>Greg</param-value>
+  </context-param>
+  
+  <context-param>
+  	<param-name>phone</param-name>
+  	<param-value>iphone</param-value>
+  </context-param>
+  
 </web-app>
