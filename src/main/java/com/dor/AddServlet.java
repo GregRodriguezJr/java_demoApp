@@ -11,6 +11,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
+/*Servlet Annotation Config to not type in xml file*/
 @WebServlet("/add")
 public class AddServlet extends HttpServlet {
 
