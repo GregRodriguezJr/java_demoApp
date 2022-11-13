@@ -7,6 +7,14 @@
 <title>Videos Page</title>
 </head>
 <body>
+
+	<%
+		if(session.getAttribute("username") == null) {
+			response.sendRedirect("login.jsp");
+		}
+	%>
+
 	This is videos page
+	
 </body>
 </html>
